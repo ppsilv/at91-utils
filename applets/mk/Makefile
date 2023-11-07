@@ -113,7 +113,7 @@ endif
 docdir          := ../doxygen/html
 doccfg          := ../doxygen/doxyfile.doxygen
 
-CROSS           ?= arm-none-eabi-
+CROSS           ?= arm-none-linux-gnueabihf-
 AR              := $(CROSS)ar
 AS              := $(CROSS)as
 CC              := $(CROSS)gcc
